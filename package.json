@@ -1,6 +1,10 @@
 {
   "name": "serverless-notes",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
   },
